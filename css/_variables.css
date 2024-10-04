@@ -1,0 +1,21 @@
+:root {
+  --font-main: Arial, Helvetica, sans-serif;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 24px;
+
+  --color-bg-main: snow;
+  --color-primary: #1d2d50;
+  --color-secondary: #f5f5f5;
+  --color-accent: #f28c28;
+
+  --color-compl-1: #829399;
+  --color-compl-2: #e3e4db;
+  --color-compl-3: #f4b860;
+
+  --margin-main: 1rem;
+  --margin-small: 0.5rem;
+  --margin-tiny: 0.1rem;
+}

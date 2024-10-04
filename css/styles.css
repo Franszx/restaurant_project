@@ -1,0 +1,58 @@
+@import "_variables.css";
+@import "_media_q.css";
+@import "_contact.css";
+@import "_food_menu.css";
+@import "_homepage.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg-main);
+}
+
+header,
+footer {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      color: var(--color-secondary);
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: var(--font-size-md);
+    }
+    & :hover {
+      color: var(--color-compl-3);
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+
+  p {
+    font-size: var(--font-size-sm);
+    margin: 0;
+  }
+}
