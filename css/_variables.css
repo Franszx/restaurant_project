@@ -1,21 +1,44 @@
 :root {
   --font-main: Arial, Helvetica, sans-serif;
 
-  --font-size-xs: 12px;
-  --font-size-sm: 16px;
-  --font-size-md: 18px;
-  --font-size-lg: 24px;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 1rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.5rem;
+  --font-size-xl: 1.75rem;
+  --font-size-xxl: 2rem;
 
   --color-bg-main: snow;
-  --color-primary: #1d2d50;
-  --color-secondary: #f5f5f5;
-  --color-accent: #f28c28;
+  --color-primary: #f2f0f2;
+  --color-secondary: #d9adc5;
+  --color-accent: #bf8faa;
+  --color-3: #8c4265;
+  --color-4: #401323;
+  --color-5: #4a7b8c;
+  --color-6: #f2d27f;
 
-  --color-compl-1: #829399;
-  --color-compl-2: #e3e4db;
-  --color-compl-3: #f4b860;
+  --color-compl-1: #40593c;
+  --color-compl-2: #2d402a;
+  --color-compl-3: #1a2618;
+  --color-compl-4: #f2d399;
 
-  --margin-main: 1rem;
-  --margin-small: 0.5rem;
+  --color-green-1: #ebf2eb;
+  --color-green-2: #86a6a0;
+  --color-green-3: #397368;
+  --color-green-4: #14594c;
+  --color-green-5: #01261f;
+
   --margin-tiny: 0.1rem;
+  --margin-small: 0.5rem;
+  --margin-main: 1rem;
+  --margin-large: 1.25rem;
+  --margin-xl: 1.875rem;
+  --margin-xxl: 2.5rem;
+
+  --padding-xs: 0.1rem;
+  --padding-sm: 0.5rem;
+  --padding-md: 1rem;
+  --padding-lg: 1.25rem;
+  --padding-xl: 1.875rem;
+  --padding-xxl: 2.5rem;
 }
