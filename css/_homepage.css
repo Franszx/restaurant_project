@@ -16,28 +16,28 @@ img {
 ul li {
   list-style: none;
   font-size: var(--font-size-md);
-  color: var(--color-3);
-  font-weight: bold;
+  color: var(--color-4);
+  font-weight: 500;
   padding-left: var(--margin-main);
   cursor: default;
   margin: 10px 0;
 }
 
 .text-content p {
-  color: var(--color-4);
+  color: var(--color-3);
 }
 
 blockquote {
-  background-color: var(--color-secondary);
+  background-color: var(--color-accent);
   padding: var(--padding-md);
 
   p {
     font-size: var(--font-size-sm);
-    color: var(--color-primary);
+    color: var(--color-3);
   }
   .author {
     text-align: right;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: var(--padding-sm);
   }
   @media (min-width: 640px) {
