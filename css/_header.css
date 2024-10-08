@@ -1,10 +1,9 @@
 header {
   text-align: center;
-  background-color: var(--color-compl-2);
 
   h1 {
     background-color: var(--color-4);
-    color: var(--color-secondary);
+    color: var(--color-primary);
     padding: var(--padding-lg) 0;
   }
 
@@ -35,16 +34,17 @@ header {
     }
   }
 }
-
+nav li:nth-child(2) {
+  text-decoration: underline;
+}
 a.active {
-  color: var(--color-4);
+  color: var(--color-accent);
   font-weight: bold;
 }
 
 @media (min-width: 640px) {
   header {
     text-align: left;
-    font-size: var(--font-size-lg);
 
     h1 {
       padding: var(--padding-lg) var(--margin-main);
@@ -70,12 +70,12 @@ a.active {
   }
 }
 @media (min-width: 768px) {
-  header {
-    font-size: var(--font-size-xl);
+  header h1 {
+    font-size: var(--font-size-subheading);
   }
 }
 @media (min-width: 1024px) {
-  header {
-    font-size: var(--font-size-xxl);
+  header h1 {
+    font-size: var(--font-size-heading);
   }
 }

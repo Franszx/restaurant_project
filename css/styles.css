@@ -13,8 +13,8 @@
 }
 
 body {
-  font-family: var(--font-main);
-  background-color: var(--color-primary);
+  font-family: var(--font-raleway);
+  background-color: var(--color-bg-main);
   width: 100vw;
   height: 100vh;
 }

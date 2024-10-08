@@ -1,3 +1,7 @@
+.homepage_main {
+  margin: var(--margin-large) auto;
+  max-width: 1300px;
+}
 section {
   margin: 0 var(--margin-main);
   gap: 1rem;
@@ -64,12 +68,15 @@ blockquote {
   }
 }
 @media (min-width: 768px) {
+  .text-content p {
+    font-size: var(--font-size-md);
+  }
 }
 @media (min-width: 1024px) {
-  main {
+  .homepage_main {
     margin: 0 8rem;
   }
   .section_homepage img {
-    width: 25%;
+    width: 50%;
   }
 }
